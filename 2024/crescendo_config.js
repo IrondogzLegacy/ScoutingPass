@@ -69,28 +69,20 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Amp Scores",
-      "code": "aas",
-      "type": "counter"
+    { "name": Picks up Note from Floor
+      "code": "apf",
+      "type": "bool"
     },
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
+    },
+    { "name": "Amp Scores",
+      "code": "aas",
+      "type": "counter"
     }
   ],
   "teleop": [
-    { "name": "Amp Scores",
-      "code": "tas",
-      "type": "counter"
-    },
-    { "name": "Speaker Scores",
-      "code": "tss",
-      "type": "counter"
-    },
-    { "name": "Times Amplified",
-      "code": "tta",
-      "type": "counter"
-    },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -100,6 +92,37 @@ var config_data = `
         "b": "Both<br>",
         "x": "Not Attempted"
       },
+    { "name": Shoots from position away from the Speaker
+      "code": "tsa",
+      "type": "bool"
+    },
+    { "name": Parks on Stage
+      "code": "tps",
+      "type": "bool"
+    },
+    { "name": "Match #",
+      "code": "m",
+      "type": "match",
+      "min": 1,
+      "max": 150,
+      "required": "true"
+    },
+    { "name": "Hangs on chain",
+      "code": "m",
+      "type": "bool",
+    },
+    { "name": "Speaker Scores",
+      "code": "tss",
+      "type": "counter"
+    },
+    { "name": "Amp Scores",
+      "code": "tas",
+      "type": "counter"
+    },
+    { "name": "Times Amplified",
+      "code": "tta",
+      "type": "counter"
+    },
       "defaultValue": "x"
     }
   ],
