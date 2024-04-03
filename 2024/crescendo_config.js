@@ -1,4 +1,5 @@
 var config_data = `
+
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
@@ -92,9 +93,10 @@ var config_data = `
         "b": "Both<br>",
         "x": "Not Attempted"
       },
-            "required": "true"
+           "defaultValue": "x",
+			"required": "true"
       },
-    { "name": "Shoots from position away from the Speaker"
+    { "name": "Shoots from position away from the Speaker",
       "code": "tsa",
       "type": "bool"
     },
@@ -111,7 +113,7 @@ var config_data = `
     },
     { "name": "Hangs on chain",
       "code": "m",
-      "type": "bool",
+      "type": "bool"
     },
     { "name": "Speaker Scores",
       "code": "tss",
@@ -124,8 +126,6 @@ var config_data = `
     { "name": "Times Amplified",
       "code": "tta",
       "type": "counter"
-    },
-      "defaultValue": "x"
     }
   ],
   "endgame": [
