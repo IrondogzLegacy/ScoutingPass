@@ -69,7 +69,7 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": Picks up Note from Floor
+    { "name": "Picks up Note from Floor"
       "code": "apf",
       "type": "bool"
     },
@@ -92,11 +92,11 @@ var config_data = `
         "b": "Both<br>",
         "x": "Not Attempted"
       },
-    { "name": Shoots from position away from the Speaker
+    { "name": "Shoots from position away from the Speaker"
       "code": "tsa",
       "type": "bool"
     },
-    { "name": Parks on Stage
+    { "name": "Parks on Stage"
       "code": "tps",
       "type": "bool"
     },
