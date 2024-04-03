@@ -69,7 +69,7 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Picks up Note from Floor"
+    { "name": "Picks up Note from Floor",
       "code": "apf",
       "type": "bool"
     },
@@ -96,7 +96,7 @@ var config_data = `
       "code": "tsa",
       "type": "bool"
     },
-    { "name": "Parks on Stage"
+    { "name": "Parks on Stage",
       "code": "tps",
       "type": "bool"
     },
