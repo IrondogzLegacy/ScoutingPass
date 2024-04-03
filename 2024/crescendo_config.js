@@ -92,6 +92,8 @@ var config_data = `
         "b": "Both<br>",
         "x": "Not Attempted"
       },
+            "required": "true"
+      },
     { "name": "Shoots from position away from the Speaker"
       "code": "tsa",
       "type": "bool"
