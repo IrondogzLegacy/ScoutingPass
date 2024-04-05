@@ -32,7 +32,7 @@ var config_data = `
     },
     { "name": "Match #",
       "code": "m",
-      "type": "int",
+      "type": "match",
       "min": 1,
       "max": 150,
       "required": "true"
