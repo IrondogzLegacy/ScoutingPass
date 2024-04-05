@@ -35,7 +35,7 @@ var config_data = `
       "type": "match",
       "min": 1,
       "max": 150,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Robot",
       "code": "r",
